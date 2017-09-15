@@ -42,9 +42,8 @@ export default {
     },
 
     deactive () {
-      if (this.closable) {
+      if(this.closable)
         this.show = false
-      }
     }
   },
 
